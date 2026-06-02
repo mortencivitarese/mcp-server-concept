@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "TODO-public-url-after-first-deploy"
+      "url": "https://rcmcpatea.wonderfulsmoke-7219c7b7.westeurope.azurecontainerapps.io"
     }
   ],
   "paths": {
@@ -30,10 +30,10 @@
         "type": "oauth2",
         "flows": {
           "authorizationCode": {
-            "authorizationUrl": "https://login.microsoftonline.com/TODO-tenant-id/oauth2/v2.0/authorize",
-            "tokenUrl": "https://login.microsoftonline.com/TODO-tenant-id/oauth2/v2.0/token",
+            "authorizationUrl": "https://login.microsoftonline.com/b3f0b16b-81f9-4c36-a9ba-2b7fc139f0cb/oauth2/v2.0/authorize",
+            "tokenUrl": "https://login.microsoftonline.com/b3f0b16b-81f9-4c36-a9ba-2b7fc139f0cb/oauth2/v2.0/token",
             "scopes": {
-              "api://TODO-client-id/mcp.access": "Access RcMcpAtea MCP Server"
+              "api://90926159-18cc-4b41-80f6-9cf01a61af38/mcp.access": "Access RcMcpAtea MCP Server"
             }
           }
         }
@@ -43,7 +43,7 @@
   "security": [
     {
       "oauth2": [
-        "api://TODO-client-id/mcp.access"
+        "api://90926159-18cc-4b41-80f6-9cf01a61af38/mcp.access"
       ]
     }
   ]
