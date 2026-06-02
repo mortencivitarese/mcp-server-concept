@@ -1,4 +1,15 @@
 {
   "version": "2.0.0",
-  "tasks": []
+  "tasks": [
+    {
+      "label": "build AteaStarter",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/MCPServers/AteaStarter/AteaStarter.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ]
 }
