@@ -34,11 +34,11 @@ param environment = [
   }
   {
     name: 'EntraIdAuth__PublicUrl'
-    value: 'TODO-public-url-after-first-deploy'
+    value: 'TODO-public-url-after-prod-first-deploy'
   }
   {
     name: 'AteaStarterApi__BaseUrl'
-    value: 'TODO-upstream-api-base-url'
+    value: 'https://restcountries.com/v3.1'
   }
   {
     name: 'IsTransportStateless'

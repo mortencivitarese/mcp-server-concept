@@ -34,11 +34,11 @@ param environment = [
   }
   {
     name: 'EntraIdAuth__PublicUrl'
-    value: 'TODO-public-url-after-first-deploy'
+    value: 'https://ateastarter.wonderfulsmoke-7219c7b7.westeurope.azurecontainerapps.io'
   }
   {
     name: 'AteaStarterApi__BaseUrl'
-    value: 'TODO-upstream-api-base-url'
+    value: 'https://restcountries.com/v3.1'
   }
   {
     name: 'IsTransportStateless'
