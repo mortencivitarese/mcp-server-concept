@@ -41,6 +41,30 @@ param environment = [
     value: 'https://restcountries.com/v3.1'
   }
   {
+    name: 'WeatherApi__BaseUrl'
+    value: 'https://api.open-meteo.com/v1'
+  }
+  {
+    name: 'WeatherApi__GeocodingUrl'
+    value: 'https://geocoding-api.open-meteo.com/v1'
+  }
+  {
+    name: 'ExchangeRateApi__BaseUrl'
+    value: 'https://open.er-api.com/v6'
+  }
+  {
+    name: 'PokemonApi__BaseUrl'
+    value: 'https://pokeapi.co/api/v2'
+  }
+  {
+    name: 'BookApi__BaseUrl'
+    value: 'https://openlibrary.org'
+  }
+  {
+    name: 'IpGeoApi__BaseUrl'
+    value: 'https://ipwho.is'
+  }
+  {
     name: 'IsTransportStateless'
     value: 'true'
   }
