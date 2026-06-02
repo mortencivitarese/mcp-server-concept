@@ -34,7 +34,7 @@ param environment = [
   }
   {
     name: 'EntraIdAuth__PublicUrl'
-    value: 'TODO-update-after-first-deploy'
+    value: 'https://rcmcpatea.kindhill-77d03965.westeurope.azurecontainerapps.io'
   }
   {
     name: 'RcMcpAteaApi__BaseUrl'
