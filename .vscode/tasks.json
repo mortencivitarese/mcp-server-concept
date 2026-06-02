@@ -10,6 +10,16 @@
         "${workspaceFolder}/MCPServers/AteaStarter/AteaStarter.csproj"
       ],
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build RcMcpAtea",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/MCPServers/RcMcpAtea/RcMcpAtea.csproj"
+      ],
+      "problemMatcher": "$msCompile"
     }
   ]
 }

@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/MCPServers/">
     <Project Path="MCPServers/AteaStarter/AteaStarter.csproj" />
+    <Project Path="MCPServers/RcMcpAtea/RcMcpAtea.csproj" />
     <Project Path="MCPServers/Shared/Shared.csproj" />
   </Folder>
 </Solution>
