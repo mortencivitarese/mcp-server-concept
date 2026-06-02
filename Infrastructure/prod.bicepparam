@@ -1,13 +1,13 @@
 using 'main.bicep'
 
 // Shared registry — keep acrName and acrResourceGroupName identical to dev.bicepparam
-param acrName             = 'mymcpacr'
-param acrResourceGroupName = 'rg-mymcpacr'
+param acrName             = 'mbolmcpacr'
+param acrResourceGroupName = 'rg-mbolmcpacr'
 
 // Prod-environment resources
-param containerAppsEnvName = 'mymcpprod'
-param keyVaultName        = 'mymcpprod'
-param logAnalyticsName    = 'mymcpprod'
+param containerAppsEnvName = 'mbolmcpprod'
+param keyVaultName        = 'mbolmcpprod'
+param logAnalyticsName    = 'mbolmcpprod'
 param location            = 'westeurope'
-param resourceGroupName   = 'rg-mymcpprod'
-param storageAccountName  = 'stmymcpprod'
+param resourceGroupName   = 'rg-mbolmcpprod'
+param storageAccountName  = 'stmbolmcpprod'
