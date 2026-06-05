@@ -1,7 +1,13 @@
 <Solution>
   <Folder Name="/MCPServers/">
     <Project Path="MCPServers/AteaStarter/AteaStarter.csproj" />
+    <Project Path="MCPServers/CryptoMcp/CryptoMcp.csproj" />
+    <Project Path="MCPServers/EthMcp/EthMcp.csproj" />
+    <Project Path="MCPServers/GqlMcp/GqlMcp.csproj" />
+    <Project Path="MCPServers/OvelseTilMth/OvelseTilMth.csproj" />
     <Project Path="MCPServers/RcMcpAtea/RcMcpAtea.csproj" />
+    <Project Path="MCPServers/RssMcp/RssMcp.csproj" />
     <Project Path="MCPServers/Shared/Shared.csproj" />
+    <Project Path="MCPServers/SqliteMcp/SqliteMcp.csproj" />
   </Folder>
 </Solution>

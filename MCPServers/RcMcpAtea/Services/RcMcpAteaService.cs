@@ -47,7 +47,7 @@ public class RcMcpAteaService : BaseHttpService
         var lon = result.GetProperty("longitude").GetDouble();
         var latStr = lat.ToString(System.Globalization.CultureInfo.InvariantCulture);
         var lonStr = lon.ToString(System.Globalization.CultureInfo.InvariantCulture);
-        return await GetAsync($"{_weatherUrl}/forecast?latitude={latStr}&longitude={lonStr}&current_weather=true&wind_speed_unit=ms");
+        return await GetAsync($"{_weatherUrl}/forecast?latitude={latStr}&longitude={lonStr}&current_weather=true&wind_speed_unit=ms&temperature_unit=fahrenheit");
     }
 
     public async Task<string> GetExchangeRatesAsync(string baseCurrency) =>

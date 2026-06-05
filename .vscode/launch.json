@@ -20,6 +20,66 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "preLaunchTask": "build RcMcpAtea"
+    },
+    {
+      "name": "GqlMcp",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/MCPServers/GqlMcp/GqlMcp.csproj",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "preLaunchTask": "build GqlMcp"
+    },
+    {
+      "name": "RssMcp",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/MCPServers/RssMcp/RssMcp.csproj",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "preLaunchTask": "build RssMcp"
+    },
+    {
+      "name": "SqliteMcp",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/MCPServers/SqliteMcp/SqliteMcp.csproj",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "preLaunchTask": "build SqliteMcp"
+    },
+    {
+      "name": "CryptoMcp",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/MCPServers/CryptoMcp/CryptoMcp.csproj",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "preLaunchTask": "build CryptoMcp"
+    },
+    {
+      "name": "EthMcp",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/MCPServers/EthMcp/EthMcp.csproj",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "preLaunchTask": "build EthMcp"
+    },
+    {
+      "name": "OvelseTilMth",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/MCPServers/OvelseTilMth/OvelseTilMth.csproj",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "preLaunchTask": "build OvelseTilMth"
     }
   ]
 }

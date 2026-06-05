@@ -20,6 +20,66 @@
         "${workspaceFolder}/MCPServers/RcMcpAtea/RcMcpAtea.csproj"
       ],
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build GqlMcp",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/MCPServers/GqlMcp/GqlMcp.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build RssMcp",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/MCPServers/RssMcp/RssMcp.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build SqliteMcp",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/MCPServers/SqliteMcp/SqliteMcp.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build CryptoMcp",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/MCPServers/CryptoMcp/CryptoMcp.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build EthMcp",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/MCPServers/EthMcp/EthMcp.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build OvelseTilMth",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/MCPServers/OvelseTilMth/OvelseTilMth.csproj"
+      ],
+      "problemMatcher": "$msCompile"
     }
   ]
 }
